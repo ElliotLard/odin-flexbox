@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100vh;
+}
+
+/* For debugging */
+div {
+    background-color: aqua;
+    outline: 2px solid blue;
+}
+
+.section {
+    flex: 0 1 25%;
+    min-height: 25%;
+    /* padding: 50px; */
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.item {
+    /* margin: 50px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright {
+    flex-basis:10px;
+    flex-grow: 0;
+}
+
+img {
+    min-width: 0;
+}

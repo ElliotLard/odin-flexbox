@@ -1,30 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
-        <div>
-            <h3>Header Logo</h3>
-            <div class="right-links">
-                <a>header link one</a>
-                <a>header link two</a>
-                <a>header link three</a>
-            </div>
+    <div class="section vertical">
+        <div class="horizontal">
+            <div style="margin-right:auto;">Header Logo</div>
+            <a>header link one</a>
+            <a>header link two</a>
+            <a>header link three</a>
         </div>
-        <div>
-            <div>
-                <h1>This website is awesome</h1>
-                <div>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
-                <button>Sign up</button>
+        <div class="horizontal" style="padding: 80px;">
+            <div class="vertical" style="flex-basis: 50%;">
+                <h1>This Webiste is awesome</h1>
+                <div>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</div>
+                <button style="align-self: flex-start">Sign up</button>
             </div>
-            <img src="./img/mountains.jpg">
+            <img src="img/mountains.jpg" alt="image of mountains" style="flex: 0 0 50%;">
         </div>
     </div>
-    
+    <div class="section vertical">
+        <div>
+            Some random information
+        </div>
+        <div class="horizontal">
+            <div class="item">
+                <div class="item-image">
+                    image
+                </div>
+                <div class="item-text">
+                    text
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-image">
+                    image
+                </div>
+                <div class="item-text">
+                    text
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-image">
+                    image
+                </div>
+                <div class="item-text">
+                    text
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-image">
+                    image
+                </div>
+                <div class="item-text">
+                    text
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section  center">
+        words3
+    </div>
+    <div class="section  center footer">
+        Call to action! sign up!
+        <div class="copyright copyright">
+            Copyright
+        </div>
+    </div>
+
 </body>
 </html>
